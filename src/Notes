@@ -1,0 +1,23 @@
+Why not use local computers/ laptops to host the websites?
+
+1) I have to keep laptop/computer on at all time
+2) I have to make sure secure all the time
+3) I have to make sure laptop/computer is always connected to the internet
+
+For these reasons we use servers
+    Always connected to power and high speed internet
+    Special layers of physical security
+
+    SDLC:
+    1.BA requests the requirements from the client
+        BA creates srs(software requirement specification) sometimes called brs(business requirement specifications)
+    2.Architects will create the software design document
+    3.Developers develop the code on local computers/ laptops once ready they run tests cases and once all the test
+        cases are passed the they will request the IT department to deploy this code to the Dev server
+    4.QA will request IT or devops team to the deploy the code on QA servers will verify the change and start testing it.
+    5.If required application is deployed on performance and security servers
+    6.Once everything is tested on QA server application is deployed on staging server
+    7.Once testing is completed on staging it will be deployed on UAT Servers
+    8.Production servers
+
+    ---------------------------------
