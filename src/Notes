@@ -21,3 +21,29 @@ For these reasons we use servers
     8.Production servers
 
     ---------------------------------
+
+Commands to build java projects
+    Execute shell(Build)
+    javac src/com/solar/Main.java
+    cd src
+    java com.solar.Main
+    The code above called the class Main and executed the main method within
+
+Commands for maven projects
+configuration for automatic checking of changes in code
+    git (source code management)
+        use github clone path
+        no need for anything else in that section
+    Poll SCM (Build Triggers)
+        * * * * * (five stars with a space in between each will ask jenkins to check for any changes once a minute)
+    Goals and Options(Build)
+        clean install -Dtest=SmokeRunner  -> this code will run the SmokeRunner runner from our code on jenkins console
+
+
+PIPELINE
+
+Developer-QA-staging area- UAT-production
+
+
+
+
